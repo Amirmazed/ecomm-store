@@ -34,24 +34,7 @@ const showProducts = (products) => {
       `;
     document.getElementById("all-products").appendChild(div);
 
-    // const rate = document.createElement("rate");
-    // rate.classList.add("stars-inner")
-    // const rating = product.rating.rate;
-    // const starPerc = (rating/5)*100
     
-    // const starPerRound = `${Math.round(starPerc/10)/2}`
-    // console.log(starPerRound)
-    // if (starPerRound==2){
-    //   rate.innerHTML = `<i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i>`
-    // }else if(starPerRound==3){
-    //   rate.innerHTML = `<i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>`
-    // }else if(starPerRound==4){
-    //   rate.innerHTML = `<i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>`
-    // }else if(starPerRound ==5){
-    //   rate.innerHTML = `<i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>`
-    // }
-    
-    // document.getElementById("product").appendChild(rate)
     
     
     
